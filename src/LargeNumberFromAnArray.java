@@ -33,7 +33,10 @@ public class LargeNumberFromAnArray
         Collections.sort(numbers);
         System.out.println(numbers);
 
-        System.out.println("Largest Number from given list is -> " + numbers.get(numbers.size() - 1));
-        System.out.println("Second largest Number from given list is -> " + numbers.get(numbers.size() - 2));
+        System.out.println("Largest Number from given list is -> " +
+                numbers.get(numbers.size() - 1));
+
+        System.out.println("Second largest Number from given list is -> " +
+                numbers.get(numbers.size() - 2));
     }
 }
