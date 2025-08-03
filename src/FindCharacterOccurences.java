@@ -1,8 +1,13 @@
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
 public class FindCharacterOccurences
 {
     public static void main(String[] args)
     {
         findOccurances("",'a');
+        findOccurances("aaabbbcccdddaa");
     }
 
     public static void findOccurances(String aString, char aCharToFind)
@@ -32,6 +37,35 @@ public class FindCharacterOccurences
             }
 
             System.out.println("Occurrences of a character '" + aCharToFind + "' in given string '" + aString + "' is : " + occurence);
+        }
+    }
+
+    public static void findOccurances(String aString)
+    {
+        Set<Character> uniquChar = new LinkedHashSet<>();
+        StringBuilder aWord = new StringBuilder();
+
+        for (Character a : aString.toCharArray())
+        {
+            if (uniquChar.add(a))
+            {
+                aWord.append(a);
+            }
+        }
+
+        for (Character a : aWord.toString().toCharArray())
+        {
+            int occurence = 0;
+
+            for (char c : aString.toCharArray())
+            {
+                if (c == a)
+                {
+                    occurence = occurence + 1;
+                }
+            }
+
+            System.out.println("Occurrences of a character '" + a + "' in given string '" + aString + "' is : " + occurence);
         }
     }
 }
