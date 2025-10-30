@@ -32,7 +32,7 @@ public class CapitalizedWord
             for (String word : aString.split("\\s"))
             {
                 String first = word.substring(0, 1).toUpperCase();
-                String rest = word.substring(1, word.length());
+                String rest = word.substring(1);
 
                 result = result + first + rest + " ";
             }

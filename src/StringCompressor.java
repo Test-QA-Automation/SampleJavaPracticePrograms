@@ -2,7 +2,7 @@ public class StringCompressor
 {
     public static void main(String[] args)
     {
-        stringCompressor("aaabbbcccddd");
+        stringCompressor("aaabbbcccddef");
     }
 
     public static void stringCompressor(String aString)

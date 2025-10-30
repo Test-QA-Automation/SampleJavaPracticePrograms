@@ -14,7 +14,7 @@ public class PrintingOneToHundredWithoutInteger
             System.out.println(i);
         }
 
-        String inputString = "20";
+        String inputString = "020";
 
         // Remove leading zeros
         String resultString = inputString.replaceFirst("^0+(?!$)", "");

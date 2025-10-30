@@ -3,9 +3,9 @@ import java.util.Set;
 
 public class RemoveDuplicatesFromStringKeepingOrder
 {
-    public static void main (String args[])
+    public static void main (String[] args)
     {
-        System.out.println(RemoveDuplicatesKeepingOrder(""));
+        System.out.println(RemoveDuplicatesKeepingOrder("aabbccddff"));
     }
 
     public static String RemoveDuplicatesKeepingOrder(String aWord)

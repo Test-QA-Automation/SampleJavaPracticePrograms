@@ -12,8 +12,10 @@ public class StarPattern
 
         int rowCount = 5;
 
-        for (int i=0; i<rowCount; i++) {
-            for (int j=0; j<=i; j++) {
+        for (int i=0; i<rowCount; i++)
+        {
+            for (int j=0; j<=i; j++)
+            {
                 System.out.print("*");
             }
             System.out.println();
@@ -21,8 +23,10 @@ public class StarPattern
 
 // Star Pattern logic - reverse
 
-        for (int i=0; i<rowCount; i++) {
-            for (int j=rowCount-1; j>=i; j--) {
+        for (int i=0; i<rowCount; i++)
+        {
+            for (int j=rowCount-1; j>=i; j--)
+            {
                 System.out.print("*");
             }
             System.out.println();
