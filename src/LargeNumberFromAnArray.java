@@ -12,7 +12,7 @@ public class LargeNumberFromAnArray
 
     }
 
-    public static void largestNumber(Integer[] anArray)
+    private static void largestNumber(Integer[] anArray)
     {
 
         int largestNumber = anArray[0];
@@ -28,7 +28,7 @@ public class LargeNumberFromAnArray
         System.out.println(largestNumber);
     }
 
-    public static void lastAndSecondLargeNumber(Integer[] anArray)
+    private static void lastAndSecondLargeNumber(Integer[] anArray)
     {
         List<Integer> numbers = new ArrayList<>(Arrays.asList(anArray));
 
@@ -42,7 +42,7 @@ public class LargeNumberFromAnArray
                 numbers.get(numbers.size() - 2));
     }
 
-    public static void lastAndSecondLowestNumber(Integer[] anArray)
+    private static void lastAndSecondLowestNumber(Integer[] anArray)
     {
         List<Integer> numbers = new ArrayList<>(Arrays.asList(anArray));
 
@@ -56,7 +56,7 @@ public class LargeNumberFromAnArray
                 numbers.get(numbers.size() - 2));
     }
 
-    public static void secondLargestNumberWithoutSorting(Integer[] anArray)
+    private static void secondLargestNumberWithoutSorting(Integer[] anArray)
     {
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;

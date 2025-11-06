@@ -10,7 +10,7 @@ public class FindUniqueCharactersFromString
         System.out.println("Unique Characters=" + uniqueChars);
     }
 
-    public static Set<Character> findUniqueCharacters(String str)
+    private static Set<Character> findUniqueCharacters(String str)
     {
         Set<Character> seenCharacters = new HashSet<>();
         Set<Character> uniqueCharacters = new HashSet<>();

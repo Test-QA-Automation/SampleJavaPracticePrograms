@@ -5,7 +5,7 @@ public class StringCompressor
         stringCompressor("aaabbbcccddef");
     }
 
-    public static void stringCompressor(String aString)
+    private static void stringCompressor(String aString)
     {
         StringBuilder aWord = new StringBuilder();
         int count = 1;

@@ -9,7 +9,7 @@ public class RemoveSpecifiedElementFromAnArray
         System.out.println("Length after removing : " + newLength);
     }
 
-    public static int removeElement(int[] nums, int val)
+    private static int removeElement(int[] nums, int val)
     {
         int index = 0;                                                                              // pointer for new array length
 

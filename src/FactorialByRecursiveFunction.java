@@ -12,7 +12,7 @@ public class FactorialByRecursiveFunction
         System.out.println("Factorial of " + num +" is : " + factorialOfNumber(num));
     }
 
-    public static int factorialOfNumberRecursion(int number)
+    private static int factorialOfNumberRecursion(int number)
     {
         if (number == 0 || number == 1)
         {
@@ -25,7 +25,7 @@ public class FactorialByRecursiveFunction
         }
     }
 
-    public static int factorialOfNumber(int number)
+    private static int factorialOfNumber(int number)
     {
         int factorial = 1;
 

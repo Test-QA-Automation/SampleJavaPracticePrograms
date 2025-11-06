@@ -8,7 +8,7 @@ public class FindLeadersInArray
     }
 
 //    Approach : Scan from Right
-    public static void findLeadersScanFromRight(int[] array)
+    private static void findLeadersScanFromRight(int[] array)
     {
         int max = 0;
 
@@ -23,7 +23,7 @@ public class FindLeadersInArray
     }
 
 //        Approach : Scan from Left
-    public static void findLeadersScanFromLeft(int[] array)
+    private static void findLeadersScanFromLeft(int[] array)
     {
         int i,j;
 

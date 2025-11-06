@@ -1,16 +1,16 @@
 public class RobotShipping
 {
 
-    public static long minTime(int[] packages)
+    private static long minTime(int[] packages)
     {
         int n = packages.length;
         long totalTime = 0;
         int maxPackages = Integer.MIN_VALUE;
 
         // Find the maximum number of packages in any bin
-        for (int i = 0; i < n; i++)
+        for (int aPackage : packages)
         {
-            maxPackages = Math.max(maxPackages, packages[i]);
+            maxPackages = Math.max(maxPackages, aPackage);
         }
 
         // Iterate from the last bin to the first bin

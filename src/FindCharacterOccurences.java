@@ -1,4 +1,3 @@
-import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -10,7 +9,7 @@ public class FindCharacterOccurences
         findOccurances("aaabbbcccdddaa");
     }
 
-    public static void findOccurances(String aString, char aCharToFind)
+    private static void findOccurances(String aString, char aCharToFind)
     {
         if (aString == null)
         {
@@ -40,7 +39,7 @@ public class FindCharacterOccurences
         }
     }
 
-    public static void findOccurances(String aString)
+    private static void findOccurances(String aString)
     {
         Set<Character> uniquChar = new LinkedHashSet<>();
         StringBuilder aWord = new StringBuilder();

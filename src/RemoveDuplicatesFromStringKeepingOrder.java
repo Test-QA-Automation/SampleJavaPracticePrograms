@@ -8,7 +8,7 @@ public class RemoveDuplicatesFromStringKeepingOrder
         System.out.println(RemoveDuplicatesKeepingOrder("aabbccddff"));
     }
 
-    public static String RemoveDuplicatesKeepingOrder(String aWord)
+    private static String RemoveDuplicatesKeepingOrder(String aWord)
     {
         if (aWord.length()==1 || aWord == null || aWord.isEmpty())
         {

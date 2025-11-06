@@ -3,12 +3,13 @@ import java.util.Map;
 
 public class FindCharacterOccurencesUsingMap
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         //String myString = "Naveen";
         findOccurrences(null, ' ');
     }
 
-    public static void findOccurrences(String aString, Character aChar) {
+    private static void findOccurrences(String aString, Character aChar) {
         if (aString == null)
         {
             System.out.println("null value !");

@@ -22,7 +22,7 @@ public class ReturnDuplicatesValuePairsFromMap
     }
 
     // Function to find key-value pairs with duplicate values in a map
-    public static List<Map.Entry<String, String>> findDuplicateValues(Map<String, String> map)
+    private static List<Map.Entry<String, String>> findDuplicateValues(Map<String, String> map)
     {
         // Create a HashMap to store the occurrences of each value
         Map<String, Integer> valueOccurrences = new HashMap<>();
