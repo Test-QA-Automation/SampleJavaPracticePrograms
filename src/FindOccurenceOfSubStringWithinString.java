@@ -1,7 +1,7 @@
 public class FindOccurenceOfSubStringWithinString
 {
     public static void main(String[] args)
-    {
+    {   
         String word = "ABCEDTGJLLABCDSWQABC";
         String subString = "ABC";
         System.out.println("Occurrences of " + subString + " inside " + word + " is : " + getOccurence(word,subString));

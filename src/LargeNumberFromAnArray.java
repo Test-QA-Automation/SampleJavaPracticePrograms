@@ -8,7 +8,7 @@ public class LargeNumberFromAnArray
         largestNumber(array);
         lastAndSecondLargeNumber(array);
         lastAndSecondLowestNumber(array);
-        secondLargestNumberWithoutSorting(array);
+        secondLargestNumberWithoutSorting(new Integer[]{5, 5, 5, 5, 5, 5});
 
     }
 
@@ -78,8 +78,9 @@ public class LargeNumberFromAnArray
         {
             System.out.println("No distinct second largest element found (all elements might be same).");
         }
-
-        System.out.println("Second largest number is : " + secondLargest);
-
+        else
+        {
+            System.out.println("Second largest number is : " + secondLargest);
+        }
     }
 }
