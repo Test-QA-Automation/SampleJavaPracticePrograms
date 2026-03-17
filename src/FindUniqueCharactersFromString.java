@@ -19,12 +19,10 @@ public class FindUniqueCharactersFromString
         {
             if (seenCharacters.add(c))                                 // If add returns false, character was already present
             {
-//                uniqueCharacters.remove(c);                             // Remove from unique if it's a duplicate
                 uniqueCharacters.add(c);
             }
             else
             {
-//                uniqueCharacters.add(c);                                // Add to unique if it's the first time seeing it
                 uniqueCharacters.remove(c);
             }
         }

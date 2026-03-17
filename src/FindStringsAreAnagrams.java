@@ -18,7 +18,7 @@ public class FindStringsAreAnagrams
 
         if (s1Array.length != s2Array.length)
         {
-            return "Given strings are anagrams";
+            return "Given strings are not anagrams";
         }
         else
         {
@@ -43,7 +43,7 @@ public class FindStringsAreAnagrams
 
         if (s1Array.length != s2Array.length)
         {
-            return "Given strings are anagrams";
+            return "Given strings are not anagrams";
         }
         else
         {
