@@ -15,7 +15,6 @@ public class MaxCharCountWithinString
 
         }
 
-
         int maxCount = 0;
         char maxCountChar = ' ';
 

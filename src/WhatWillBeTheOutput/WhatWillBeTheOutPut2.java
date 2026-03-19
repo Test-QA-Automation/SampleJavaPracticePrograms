@@ -1,3 +1,5 @@
+package WhatWillBeTheOutput;
+
 public class WhatWillBeTheOutPut2
 {
     WhatWillBeTheOutPut2()

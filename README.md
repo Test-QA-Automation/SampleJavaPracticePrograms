@@ -24,6 +24,6 @@ These are sample java coding interview questions faced during interviews<br>
 --StarPattern.java<br>
 --StringCompressor.java<br>
 --StringContainsVowels.java<br>
---WhatWillBeTheOutPut1.java<br>
---WhatWillBeTheOutPut2.java<br>
+--WhatWillBeTheOutput.WhatWillBeTheOutPut1.java<br>
+--WhatWillBeTheOutput.WhatWillBeTheOutPut2.java<br>
 --WordFrequencyCounter.java<br>

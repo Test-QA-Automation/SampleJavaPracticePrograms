@@ -1,3 +1,5 @@
+package WhatWillBeTheOutput;
+
 public class WhatWillBeTheOutPut1
 {
     public static void main(String[] args)

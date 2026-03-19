@@ -33,10 +33,16 @@ public class WordFrequencyCounter
 //                wordCount.replace(wordToIgnoreCase, wordCount.get(wordToIgnoreCase)+1);
 //            }
 //        }
+        StringBuilder sb = new StringBuilder();
 
         for (Map.Entry<String, Integer> entry : wordCount.entrySet())
         {
-            System.out.print(entry.getKey() + ":" + entry.getValue() + ", ");
+            sb.append(entry.getKey()).append(":")
+              .append(entry.getValue())
+              .append(", ");
+//            System.out.print(entry.getKey() + ":" + entry.getValue() + ", ");
         }
+
+        System.out.println(sb.subSequence(0, sb.length() - 2));
     }
 }
